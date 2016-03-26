@@ -1,6 +1,6 @@
 {
   "name": "ko-component-compiler",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Knockout Component Compiler",
   "main": "index.js",
   "dependencies": {
@@ -25,7 +25,7 @@
   },
   "peerDependencies": {
     "insert-css": "^0.2.x",
-    "robust-mixin": "^0.x"
+    "robust-mixin": "^0.0.x"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
