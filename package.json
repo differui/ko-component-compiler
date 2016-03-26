@@ -23,6 +23,9 @@
     "stylus": "^0.53.0",
     "stylus-compiler": "^0.2.1"
   },
+  "peerDependencies": {
+    "insert-css": "^0.2.0",
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
