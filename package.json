@@ -1,6 +1,6 @@
 {
   "name": "ko-component-compiler",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "Knockout Component Compiler",
   "main": "index.js",
   "dependencies": {
@@ -24,8 +24,8 @@
     "stylus-compiler": "^0.2.1"
   },
   "peerDependencies": {
-    "insert-css": "^0.2.x",
-    "robust-mixin": "^0.0.x"
+    "insert-css": "~0.2.x",
+    "robust-mixin": "~0.0.x"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
