@@ -3,7 +3,8 @@ Knockout Component Compiler
 
 ## What is Knockout Component?
 
-Just like `.vue` single file component. But written in knockout.js.
++ Let you write component in single file just like vue component.
++ Easy to write a component and no need to care about register.
 
 ```
 <template>
@@ -54,9 +55,15 @@ compiler.compile('code', function (err, result) {
 Install packages:
 
 ```bash
+# rollup plugins
 $ npm install rollup-plugin-ko
+$ npm install rollup-plugin-babel
 $ npm install rollup-plugin-commonjs
 $ npm install rollup-plugin-node-resolve
+
+# peer deps
+$ npm install inject-css
+$ npm install robust-mixin
 ```
 
 ```js
