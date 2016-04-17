@@ -1,6 +1,6 @@
 {
   "name": "ko-component-compiler",
-  "version": "0.4.4",
+  "version": "0.4.5",
   "description": "Knockout Component Compiler",
   "main": "index.js",
   "dependencies": {
